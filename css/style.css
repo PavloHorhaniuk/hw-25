@@ -1,0 +1,27 @@
+.conteiner {
+    width: 100px;
+    height: 300px;
+    outline: 3px solid red;
+    position: relative;
+}
+.box{
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: flex-end;
+position: absolute;
+}
+.box1 {
+    background-color: lightcoral;
+}
+.box2{
+    background-color: cornflowerblue;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.box3{
+    background-color: lime;
+    top: 100px;
+    left: 100px;
+}
